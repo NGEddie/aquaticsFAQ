@@ -1,0 +1,38 @@
+body {
+  background-color: whitesmoke;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: seagreen;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.questionBox {
+  background-color: beige;
+  border-radius: 5px;
+  border: #ccc 1px solid;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 50%);
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+.question Button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #444;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  background-color: seagreen;
+  color: white;
+}
+
+.question Button:hover {
+  background-color: lightgreen;
+}
