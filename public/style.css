@@ -36,3 +36,11 @@ body {
 .question Button:hover {
   background-color: lightgreen;
 }
+
+.question_contents {
+  flex-wrap: nowrap;
+}
+
+.question_video {
+  width: 67%;
+}
